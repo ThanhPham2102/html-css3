@@ -1,0 +1,387 @@
+/* bai1 */
+/* *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.body {
+    width: 1000px;
+    margin-top: 10px;
+    margin-left: 20px;
+    line-height: 25px;
+    padding: 20px;
+    background-color: aliceblue;
+}
+.body h1{
+    margin-bottom: 20px;
+}
+.body p {
+    color: rgb(176, 171, 171);
+}
+.body01{
+    margin-top: 40px;
+    display: flex;
+}
+.body1{
+    width: 400px;
+    margin-right: 20px;
+}
+.body11{
+    width: 100%;
+    height: 250px;
+    color: white;
+    font-size: 30px;
+    border: 1px solid #1a73e8;
+    background-color: #1a73e8;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 250px;
+}
+.body1 h3{
+    width: 350px;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Cambria,Georgia,serif; 
+}
+.body1 span {
+    color: rgb(176, 171, 171);
+}
+.body2 .span{
+    color: rgb(176, 171, 171);
+}
+.body21{
+    display: flex;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: thin red dotted;
+}
+.body211{
+    width: 130px;
+    height: 80px;
+    color: white;
+    background-color: pink;
+    text-align: center;
+    line-height: 80px;
+    font-size: 40px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.body22{
+    display: flex;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: thin red dotted;
+}
+.body221{
+    width: 140px;
+    height: 80px;
+    color: white;
+    background-color: pink;
+    text-align: center;
+    line-height:80px;
+    font-size: 40px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.body23{
+    display: flex;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: thin red dotted;
+}
+.body231{
+    width: 140px;
+    height: 80px;
+    color: white;
+    background-color: pink;
+    text-align: center;
+    line-height: 80px;
+    font-size: 40px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.body24{
+    display: flex;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.body241{
+    width: 140px;
+    height: 80px;
+    color: white;
+    background-color: pink;
+    text-align: center;
+    line-height: 80px;
+    font-size: 40px;
+    margin-right: 20px;
+    border-radius: 5px;
+} */
+
+
+/* bai1 */
+/* *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.bai1{
+    background-color: antiquewhite;
+    width:1000px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.bai1 .bai11{
+    margin: 15px;
+}
+.bai012{
+    display: flex;
+}
+.bai012 .bai12{
+    width:400px;
+}
+.bai012 .bai12 .bai1212{
+    width:350px;
+    height:300px;
+   text-align: center;
+   line-height: 300px;
+   background-color:rgb(51, 51, 244) ;
+   margin: 15px;
+   color: white;
+   border-radius: 20px;
+   font-size: 40px;
+}
+.bai012 .bai12 h3{
+    margin: 15px;
+}
+.bai012 .bai12 .bai1213{
+    margin: 15px;
+}
+
+
+.bai013{
+    margin:15px;
+
+}
+
+.bai013 .bai13{
+    display: flex;
+    border-bottom: 3px dotted pink;
+}
+.bai013 .bai13 .bai131{
+   width:150px;
+   height:100px;
+   text-align: center;
+   line-height: 100px;
+   background-color: rgb(176, 132, 217);
+margin: 15px;
+color: white;
+border-radius: 10px;
+font-size: 80px;
+
+
+
+}
+.bai1313{
+margin-top: 15px;
+}
+.bai133{
+    margin-top: 15px;
+} */
+
+
+
+
+/* *bai2* */
+
+ .contact{
+
+    max-width: 1200px;
+    margin: auto;
+}
+.infor{
+    display: flex;
+}  
+/* Công thức gạch chân  */
+  .contact .heading::after{
+    content: "";
+    display: block;
+    width: 160px;
+    height: 3px;
+    background-color: rgb(255, 179, 0);
+}
+
+.infor .text-box{
+    width: 80% ;
+    
+    
+    
+}
+.infor .text-box .table{
+    margin: 20px;
+    width: 100%;
+}
+
+.infor .text-box .table .text-in{
+    margin: 20px;
+   width: 100%;
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* bài3 */
+ /* .div0{
+    width: 1300px;
+    padding: 10px;
+    margin-top: 20px ;
+    margin-left: 20px;
+    
+ }
+.div1{
+    margin-top: 20px;
+    display: flex;
+}.div2{
+    width: 600px;
+    background-color: rgb(3, 3, 17);
+    margin-right: 30px;
+}.div2 .div21{
+    font-size: 50px;
+    width: 100%;
+    
+    color: white;
+    border: 1px solid rgb(13, 13, 34);
+    border-radius: 5px;
+    text-align: center;
+    line-height: 400px;
+}.div3 p{
+    width: 450px;
+    margin-top: 30px;
+    color: rgb(117, 117, 120);
+    margin-bottom: 30px;
+
+}.div6{
+    display: flex;
+}.div6 .div4{
+    width: 250px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+} */
+   
+
+/* bài5 */
+/* *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.div0{
+    width: 847px;
+    background-color: rgb(247, 243, 243);
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 15px;
+    box-shadow: 5px 5px 35px 5px #888888;
+ 
+   
+}.div1{
+    display: flex;
+    padding-top: 15px;
+}.div2 .p1 input{
+    width: 400px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+}.div2 .p2 input{
+    width: 400px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+}.div2 .p3 input{
+    width: 400px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+}.div3 .p4 input{
+    width: 400px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+}.div3 .p5 input{
+    width: 400px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+}.div3 .p6 input{
+    width: 400px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+}.div4 .p7 input{
+    width:100%;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+}.div4 button{
+    width:100%;
+    background-color: black;
+    color: white;
+    height: 30px;
+} */
+
+
+
+
+
+/* bai6 */
+ 
+
+   
+/* 
+.all{
+    max-width: 1200px;
+    margin: auto;
+}
+.all .name{
+    display: flex;
+width: 100%;
+
+    
+}
+.all .name .email{
+    margin-left: 20px;
+    height: 30px;
+
+}
+.all .note{
+    
+    width: 100%;
+}
+.all .note .subject{
+    width:1000px;
+    margin-bottom:15px;
+}
+.sendMesenger{
+    display: flex;
+} */
